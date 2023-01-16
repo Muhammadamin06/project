@@ -1,0 +1,77 @@
+@media (max-width:1200px) {
+    .main__first{
+        flex-wrap: wrap;
+        justify-content: space-around   ;
+        gap: 30px;
+    }
+}
+@media (max-width:992px) {
+    .about__items{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:768px) {
+    .header__block{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
+@media (max-width:576px) {
+    .header__title{
+        font-size: 60px;
+    }
+    .header__little-title{
+        font-size: 30px;
+        margin-top: 15px;
+    }
+    .header__last-title{
+        margin-top: 25px;
+        padding: 10px 58px;
+    }
+    .main__picture img{
+        width: 100%;
+    }
+    .main__text{
+        text-align: center;
+        margin-right: 30px;
+    }
+    .conclusion__block{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+@media (max-width:400px) {
+    .header__link{
+        font-size: 14px;
+    }
+    .header__item{
+        margin-left: 10px;
+    }
+    .text__area{
+        padding-left: 15px;
+        width: 150px;
+    }
+    .research{
+        width: 60px;
+    }
+    .main__title{
+        font-size: 30px;
+    }
+    .main__item img{
+        width: 100%;
+    }
+    .main__picture img{
+        height: 100%;
+    }
+    .about__catalog{
+        font-size: 30px;
+    }
+    .footer__titles{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 10px;
+    }
+    .footer__end{
+        flex-wrap: wrap;
+    }
+}
